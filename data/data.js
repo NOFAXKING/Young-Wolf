@@ -1,4 +1,4 @@
-const mentorsData = [
+export const mentorsData = [
   {
     name: "Dr. Birmohan Singh",
     education: "Ph.D., M.E.",
