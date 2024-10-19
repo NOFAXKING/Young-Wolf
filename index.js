@@ -50,7 +50,9 @@ window.addEventListener("hashchange", () => {
           <button id="backBtn">Go Back</button>
       <div class="mentors-detail-container">
         <div class="mentor-detail-card roboto-light">
-          <img src="${mentor.image}" alt="${mentor.name}" />
+          <img src="${mentor.image}" alt="${
+        mentor.name
+      } property="twitter:image"" />
           <h3>${mentor.name}</h3>
           <p>${mentor.education}</p>
           <p>${mentor?.phone}</p>
@@ -61,7 +63,9 @@ window.addEventListener("hashchange", () => {
         <p class="roboto-regular">Book a one-on-one sessions with ${
           mentor.staffType
         } ${mentor.name}</p>
-        <form class="available-hours mentor-form-detail">
+        <form class="available-hours mentor-form-detail" action="mailto:${
+          mentor.email[0]
+        }.com" method="post" enctype="text/plain">
         <div class="form-group">
             <label class="roboto-light" for="time"> ${
               mentor.name
