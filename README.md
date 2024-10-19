@@ -29,7 +29,7 @@ This initiative will strengthen student-faculty interactions, providing continuo
 This mentorship platform will foster stronger connections between SLIET students and faculty members, offering personalized guidance to help students excel in their academic and career journeys. It will also provide an opportunity for faculty members to engage more actively with students, enhancing the learning experience at SLIET.
 
 ### 👥 Contributors
-- **Abena Havre** - Team Leader
+- **Abena Havre** - Team Leader (Developer)
   - Phone: +237691602251
   - Email: abenahavreloic@gmail.com
 - **Temgoua Arthur** - DevOps and Project Manager
