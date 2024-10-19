@@ -5,6 +5,13 @@
     padding: 10px;
 }
 
+.mentors-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 10px;
+    padding: 10px;
+}
+
 .mentor-card {
     padding: 10px;
     border: 1px solid #ccc;
@@ -14,6 +21,22 @@
     justify-content: center;
     align-items: center;
     justify-items: center;
+}
+
+.mentor-detail-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.mentor-form-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 .mentor-image {
@@ -33,6 +56,29 @@ button {
     cursor: pointer;
     font-size: 16px;
     width: 100%;
+}
+
+.book-session-button {
+    background-color: #53b853;
+}
+
+.available-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 10px;
+}
+
+#backBtn {
+    width: 15%;
 }
 
 .roboto-thin {
@@ -107,3 +153,14 @@ button {
     font-style: italic;
   }
   
+  @media screen and (max-width: 768px) { /* Adjust breakpoint for tablet */
+    .mentor-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 480px) { /* Adjust breakpoint for mobile */
+    .mentor-container {
+      grid-template-columns: 1fr;
+    }
+  }

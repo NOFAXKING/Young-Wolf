@@ -1,10 +1,9 @@
 ## ✨ What's New (Unreleased)
 
 **New Features:**
-
-## ✨ Version [Version Number] - [Date]
-
-**New Features:**
+* Login for mentors
+* List of mentors
+* View mentors details
 
 **✨ Improvements:**
 

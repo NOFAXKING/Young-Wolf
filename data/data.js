@@ -80,7 +80,7 @@ export const mentorsData = [
     phone: "01672-253614",
     email: ["preetpal@sliet.ac.in"],
     image:
-      "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg",
+      "http://sliet.ac.in/wp-content/uploads/avatars/349/632d98c75d80f-bpfull.jpg",
     staffType: "Assistant Professors",
   },
   {
@@ -89,7 +89,7 @@ export const mentorsData = [
     phone: "91-6283963279",
     email: ["tajindersingh@sliet.ac.in"],
     image:
-      "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg",
+      "http://sliet.ac.in/wp-content/uploads/avatars/468/64e3532d30fac-bpfull.jpg",
     staffType: "Assistant Professors",
   },
   {
