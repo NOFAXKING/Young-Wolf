@@ -38,6 +38,7 @@ window.addEventListener("hashchange", () => {
     if (role === "") {
       console.log(`${role} is not empty`);
       window.location.href = "/pages/welcome.html";
+      location.reload();
     }
     // Get the mentor details by ID
     const mentor = mentorsData[mentorId];
