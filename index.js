@@ -50,9 +50,7 @@ window.addEventListener("hashchange", () => {
           <button id="backBtn">Go Back</button>
       <div class="mentors-detail-container">
         <div class="mentor-detail-card roboto-light">
-          <img src="${mentor.image}" alt="${
-        mentor.name
-      } property="twitter:image"" />
+          <img src="${mentor.image}" alt="${mentor.name} />
           <h3>${mentor.name}</h3>
           <p>${mentor.education}</p>
           <p>${mentor?.phone}</p>
