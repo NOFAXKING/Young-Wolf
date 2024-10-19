@@ -3,6 +3,7 @@ import { getHTMLElementsById, truncateString } from "./lib/utils.js";
 
 const mentorList = getHTMLElementsById("mentor-container");
 const mentorDetails = getHTMLElementsById("mentor-details");
+const role = localStorage.getItem("role");
 
 const mentorsHTML = mentorsData.map((mentor, index) => {
   const mentorLinkId = `#mentor/${index + 1}`;
@@ -29,6 +30,15 @@ window.addEventListener("hashchange", () => {
   if (hash.startsWith("#mentor/")) {
     const mentorId = parseInt(hash.split("/")[1], 10) - 1;
 
+    if (!role) {
+      console.log(`${role} is not defined`);
+
+      window.location.href = "/pages/welcome.html";
+    }
+    if (role === "") {
+      console.log(`${role} is not empty`);
+      window.location.href = "/pages/welcome.html";
+    }
     // Get the mentor details by ID
     const mentor = mentorsData[mentorId];
     if (mentor) {

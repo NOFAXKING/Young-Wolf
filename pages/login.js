@@ -20,7 +20,7 @@ function login(username, password) {
   );
 
   if (user) {
-    return alert("You are logged in");
+    window.location.href = "/index.html";
   } else {
     return alert("Invalid username or password");
   }
