@@ -48,10 +48,16 @@ window.addEventListener("hashchange", () => {
         <h2>Faculty: ${mentor.staffType}</h2>
         </div>
         <div>
-        <p class="roboto-regular">Book a one-on-one sessions with ${mentor.staffType} ${mentor.name}</p>
+        <p class="roboto-regular">Book a one-on-one sessions with ${
+          mentor.staffType
+        } ${mentor.name}</p>
         <form class="available-hours mentor-form-detail">
         <div class="form-group">
-            <label class="roboto-bold" for="time">Available hours</label>
+            <label class="roboto-light" for="time"> ${
+              mentor.name
+            } is available from ${mentor.availableHours.map(
+        (hour) => `${hour.start} to ${hour.end}`
+      )}</label>
             <input type="time" name="time" id="time" required>
             </div>
         <button class="book-session-button">Book session</button>
@@ -77,3 +83,35 @@ window.addEventListener("hashchange", () => {
 
 // Trigger the initial hash change event (in case the user directly lands on a mentor's page)
 window.dispatchEvent(new Event("hashchange"));
+
+// Disable the unavailable hours of mentors
+const timeInput = getHTMLElementsById("time");
+
+timeInput.addEventListener("input", function () {
+  const selectedTime = this.value;
+
+  let isValid = false;
+
+  // Check if the selected time is within any of the available time ranges
+  const availableTimes = mentorsData.map(
+    (availableTime) => availableTime.availableHours
+  );
+  availableTimes.forEach((timeRange) => {
+    if (selectedTime >= timeRange.start && selectedTime <= timeRange.end) {
+      isValid = true;
+    }
+  });
+
+  if (!isValid) {
+    timeInput.classList.add("disabled-hour");
+  } else {
+    timeInput.classList.remove("disabled-hour");
+  }
+
+  if (!isValid) {
+    alert(
+      "The selected time is not available. Please choose a time between the available hours."
+    );
+    this.value = ""; // Clear the invalid input
+  }
+});

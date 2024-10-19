@@ -81,6 +81,11 @@ button {
     width: 15%;
 }
 
+.disabled-hour {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -162,5 +167,25 @@ button {
   @media screen and (max-width: 480px) { /* Adjust breakpoint for mobile */
     .mentor-container {
       grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 768px) { /* Adjust breakpoint for tablet */
+    .mentors-detail-container {
+      grid-template-columns: 1fr 0.7fr;
+    }
+    #backBtn {
+        width: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 580px) { /* Adjust breakpoint for mobile */
+    .mentors-detail-container {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #backBtn {
+        width: 30%;
     }
   }

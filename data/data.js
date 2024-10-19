@@ -7,6 +7,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
     staffType: "Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Damanpreet Singh",
@@ -16,6 +20,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg",
     staffType: "Professors",
+    availableHours: [
+      { start: "10:00", end: "12:00" },
+      { start: "15:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Major Singh Goraya",
@@ -25,6 +33,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/35/5e69c6be20c7e-bpfull.jpg",
     staffType: "Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "16:00" },
+    ],
   },
   {
     name: "Dr. Manoj Sachan",
@@ -35,6 +47,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/6/605c66bd3e3bc-bpfull.jpg",
     staffType: "Professors",
+    availableHours: [
+      { start: "09:00", end: "10:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Gurjinder Kaur",
@@ -45,6 +61,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/14/5f2245e7a7f1bde5dee5bda48e09d411-bpfull.jpg",
     staffType: "Associate Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "15:00" },
+    ],
   },
   {
     name: "Dr. Amar Nath",
@@ -55,6 +75,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/467/66b8bb350cc46-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "11:00" },
+      { start: "14:00", end: "15:00" },
+    ],
   },
   {
     name: "Dr. Jagdeep Singh",
@@ -64,6 +88,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/466/66f81ca30f4ff-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Manminder Singh",
@@ -73,6 +101,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Preetpal Kaur Buttar",
@@ -82,6 +114,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/349/632d98c75d80f-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Tajinder Singh",
@@ -91,6 +127,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/468/64e3532d30fac-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Utkarsh",
@@ -100,6 +140,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/493/6165aace595a1-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. VINOD KUMAR VERMA",
@@ -109,6 +153,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/17/28b95ba0ed455dca378c1ada58307bf6-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Jaspal Singh",
@@ -118,6 +166,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/36/e0a878e8162fd75cb5eb6929d98df5c1-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Rahul Gautam",
@@ -127,6 +179,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/350/666bf221c60a0-bpfull.jpg",
     staffType: "Assistant Professors",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Dr. Jatinder Pal Singh",
@@ -136,6 +192,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/344/64edd5a68d11b-bpfull.jpg",
     staffType: "Assistant Professors(Contract)",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Sukhpreet Singh",
@@ -145,6 +205,7 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/353/60544f9339252-bpfull.jpg",
     staffType: "Assistant Professors(Contract)",
+    availableHours: [{ start: "09:00", end: "10:00" }],
   },
   {
     name: "Chinu",
@@ -154,6 +215,7 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/477/605067c46b9c6-bpfull.jpg",
     staffType: "Guest/Part-Time Teachers",
+    availableHours: [{ start: "14:00", end: "18:00" }],
   },
   {
     name: "Dr. Vikash Kumar Garg",
@@ -163,6 +225,10 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/457/605b0275612df-bpfull.jpg",
     staffType: "Guest/Part-Time Teachers",
+    availableHours: [
+      { start: "09:00", end: "12:00" },
+      { start: "14:00", end: "18:00" },
+    ],
   },
   {
     name: "Sunita Rani",
@@ -172,5 +238,7 @@ export const mentorsData = [
     image:
       "http://sliet.ac.in/wp-content/uploads/avatars/516/64ed97380a462-bpfull.jpg",
     staffType: "Guest/Part-Time Teachers",
+
+    availableHours: [{ start: "09:00", end: "11:00" }],
   },
 ];
